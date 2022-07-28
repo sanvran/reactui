@@ -3,15 +3,13 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Main from './component/Main';
 import MainList from './component/MainList';
+import Router from './routes';
 function App() {
-  return (
-    <div className="App">
-      
-      <Navbar/>
-      <Main/>
-      <MainList/>
-    </div>
-  );
+	return (
+		<>
+			<Router/>
+		</>
+	);
 }
 
 export default App;

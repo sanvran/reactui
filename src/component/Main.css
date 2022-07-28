@@ -1,9 +1,11 @@
 body {
 
-    background: linear-gradient(90deg, #0d2333, #040a0f);
+    /* background: linear-gradient(90deg, #0d2333, #040a0f); */
 
 }
-
+.form-control{
+    font-size: 14px !important;
+}
 .container {
 
     display: flex;
